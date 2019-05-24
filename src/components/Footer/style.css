@@ -1,0 +1,88 @@
+.footer {
+    border-top: 1px solid #cecece;
+}
+
+.footer-logo {
+    background: url(../../img/logo.png) no-repeat;
+    background-size: contain;
+    height: 46px;
+    width: 195px;
+}
+
+.footer-contacts-icon {
+    height: 18px;
+    width: 18px; 
+    border-radius: 50%;
+    background-color: #1E3C50;
+    position: relative;
+}
+
+.footer-contacts-icon .i-phone {
+    height: 8px;
+    width: 8px;
+    background: url(../../icons/phone.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-contacts-icon .i-mail {
+    height: 11px;
+    width: 10px;
+    background: url(../../icons/mail.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-contacts-icon .i-location {
+    height: 13px;
+    width: 10px;
+    background: url(../../icons/location.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-contacts-icon .i-vk {
+    height: 7px;
+    width: 12px;
+    background: url(../../icons/vk.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-contact {
+    margin-left: auto;
+}
+
+@media (max-width: 624px) {
+    .footer-logo {
+        display: none !important;
+    }
+    
+    .footer-contact-label {
+        display: none;
+    }
+
+    .footer-contact {
+        margin-left: 0 !important;
+    }
+}

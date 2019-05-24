@@ -1,0 +1,137 @@
+.header-logo {
+    background: url(../../img/logo.png) no-repeat;
+    background-size: contain;
+    height: 80px;
+    width: 350px;
+    margin-right: 25px;
+}
+
+.header {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.header-contacts {
+    width: 55%;
+}
+
+.header-contacts-icon {
+    height: 34px;
+    width: 34px; 
+    border-radius: 50%;
+    background-color: #1E3C50;
+    position: relative;
+ }
+ .header-contacts-icon .i-phone {
+     height: 16px;
+     width: 16px;
+     background: url(../../icons/phone.svg) no-repeat;
+     background-size: contain;
+     position: absolute;
+     margin: auto;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+ }
+
+.header-contacts-icon--small {
+    height: 22px;
+    width: 22px; 
+    border-radius: 50%;
+    background-color: #1E3C50;
+    position: relative;
+}
+
+.header-contacts-icon--small .i-mail {
+    width: 13px;
+    height: 12px;
+    background: url(../../icons/mail.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header-contacts-icon--small .i-location {
+    width: 12px;
+    height: 16px;
+    background: url(../../icons/location.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.header-contacts-extra {
+    display: flex;
+}
+
+.header-contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1024px) {
+    .header-contacts-extra {
+        display: none !important;
+    }
+}
+
+@media (max-width: 624px) {
+    .header-logo {
+        height: 50px;
+    }
+
+    /*.header.main-container {
+        flex-direction: column;
+    }*/
+
+    .header-contacts-icon {
+        height: 25px;
+        width: 25px;
+    }
+
+    .header-contacts-icon .i-phone {
+        height: 11px;
+        width: 11px;
+    }
+
+    .header-logo {
+        align-self: start;
+    }
+
+    .header-contacts span {
+        font-size: 17px !important;
+    }
+
+    .header-contacts {
+        justify-content: flex-end !important;
+    }
+}
+
+@media (max-width: 582px) {
+    .header-contacts {
+        display: none !important;
+    }
+
+    .header {
+        padding: 8px 0 8px 20px !important;
+    }
+
+    .header-logo {
+        width: 220px !important;
+    }
+}
+
+@media (max-width: 340px) {
+    .header-logo {
+        width: 180px !important;
+        height: 42px;
+    }
+}
